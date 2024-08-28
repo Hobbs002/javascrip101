@@ -176,7 +176,7 @@ const GachaMachine = () => {
                 <Typography variant="h4">Add Credit</Typography>
               </CardHeader>
               <CardBody>
-                {[20, 50, 100, 500, 1000].map((amount) => (
+                {[20, 50, 100, 500, 1000,5000].map((amount) => (
                   <IconButton
                     key={amount}
                     color="amber"
