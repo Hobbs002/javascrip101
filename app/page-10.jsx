@@ -165,7 +165,7 @@ const GachaMachine = () => {
                 <List>
                   <ListItem>1. Each play costs ฿{costPerRound} credit</ListItem>
                   <ListItem>2. Click "PLAY GACHA" to start</ListItem>
-                  <ListItem>3. Get your lucky winner!</ListItem>
+                  <ListItem> Get your lucky winner!</ListItem>
                 </List>
               </CardBody>
             </Card>
@@ -176,7 +176,7 @@ const GachaMachine = () => {
                 <Typography variant="h4">Add Credit</Typography>
               </CardHeader>
               <CardBody>
-                {[20, 50, 100, 500, 1000,5000].map((amount) => (
+                {[20, 50, 100, 500, 1000].map((amount) => (
                   <IconButton
                     key={amount}
                     color="amber"
